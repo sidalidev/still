@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Still: no INTERNET permission, on purpose. Your sessions never leave the phone. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Haptics that follow the breath. The only permission. -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".StillApp"
+        android:allowBackup="false"
+        android:dataExtractionRules="@xml/no_extraction"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:enableOnBackInvokedCallback="true"
+        tools:targetApi="33"
+        android:theme="@style/Theme.Still">
+
+        <!-- Handles rotation and dark mode itself, so a running session is never restarted. -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboardHidden|uiMode|density">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- About and "What leaves your device". Its links open in the browser, on a tap. -->
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false" />
+    </application>
+</manifest>

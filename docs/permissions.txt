@@ -1,0 +1,2 @@
+android.permission.VIBRATE
+dev.sidali.still.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION

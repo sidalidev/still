@@ -1,0 +1,22 @@
+<b>Breathe slowly. Calm down, or fall asleep.</b>
+
+Pick a mode, tap Begin, and follow the orb: it grows as you breathe in, rests when you hold, and shrinks as you breathe out. Soft tones and a gentle vibration keep you in time, even with your eyes closed.
+
+<b>Three modes</b>
+<ul>
+<li><b>Calm</b>: in for 5 seconds, out for 5, six breaths a minute, for 3, 5 or 10 minutes.</li>
+<li><b>Sleep</b>: starts at in 4, out 6, and slows down to 4-7-8 on a black screen. Stops by itself after 10, 15 or 20 minutes.</li>
+<li><b>Trust</b>: one verse of the Quran about trusting God, to read calmly, then 3 minutes of Calm. Arabic and Pickthall's English translation, no hadith, no commentary.</li>
+</ul>
+
+<b>Private by design</b>
+<ul>
+<li>No internet permission: the app cannot connect to anything.</li>
+<li>Only your sessions are stored (date, mode, minutes), on your phone. Export them, or erase everything at once.</li>
+<li>One permission: vibration.</li>
+<li>No account, no ads, no analytics, no streaks, no reminders.</li>
+</ul>
+
+Sounds play only when your phone is not on silent or vibrate. Haptics follow your system vibration settings. Both can be turned off in Settings.
+
+Open source, Apache-2.0.

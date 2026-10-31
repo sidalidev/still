@@ -1,0 +1,8 @@
+<resources>
+    <!-- Window background matches the first frame, so the launch has no flash. -->
+    <style name="Theme.Still" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

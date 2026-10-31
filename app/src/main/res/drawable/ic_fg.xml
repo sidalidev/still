@@ -1,0 +1,15 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <!-- A crescent moon above one soft breath wave, in cream on night blue (grid 24, stroke 2.1, round caps and joins). -->
+    <!-- Drawn on a 24 grid, scaled 2.5x and centred: everything stays inside the 66dp safe circle. -->
+    <group android:translateX="24" android:translateY="24" android:scaleX="2.5" android:scaleY="2.5">
+        <!-- Crescent: filled, with a thin round stroke so its two tips are soft. -->
+        <path android:fillColor="#FFFBF7EF" android:strokeColor="#FFFBF7EF" android:strokeWidth="1"
+            android:strokeLineCap="round" android:strokeLineJoin="round"
+            android:pathData="M11.91,4.42A5,5 0,1 0,16.9,11.35A4.3,4.3 0,0 1,11.91,4.42Z" />
+        <!-- One breath: in, then out. -->
+        <path android:fillColor="#00000000" android:strokeColor="#FFFBF7EF" android:strokeWidth="2.1"
+            android:strokeLineCap="round" android:strokeLineJoin="round"
+            android:pathData="M5.8,17.6C7.85,15.5 9.95,15.5 12,17.6S16.15,19.7 18.2,17.6" />
+    </group>
+</vector>

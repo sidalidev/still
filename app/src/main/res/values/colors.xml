@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Launch window: the page color (Crème miel), so the first frame has no flash. -->
+    <color name="bg">#FFFBF7EF</color>
+    <!-- Still's color (Night blue), the background of the app icon. -->
+    <color name="night">#FF34508A</color>
+</resources>
